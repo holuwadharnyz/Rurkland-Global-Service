@@ -1,0 +1,86 @@
+.container {
+  padding: 80px 200px;
+  background-color: #ECEFFD;
+}
+.container_inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.partners_par {
+  background: #E7DCFD;
+  padding: 8px 16px;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 800;
+  color: #0F23A9;
+  width: fit-content;
+}
+.banner_h4 {
+  margin: 16px 0 0 0;
+  font-size: 40px;
+  font-weight: 500;
+}
+.banner_P {
+  font-size: 16px;
+  color: #7A7A7A;
+  margin: 19px 0 48px 0;
+  line-height: 24px;
+}
+.form_div {
+  padding: 20px;
+  border-radius: 20px;
+}
+.form_div_h4 {
+  margin-bottom: 20px;
+}
+.form_card_label {
+  width: 100%;
+  font-family: axiformaL;
+}
+.form_card_input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px 10px;
+  border-top: none;
+  border-bottom: 1px solid #CBD5E1;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  outline: none;
+}
+.form_card_input::placeholder {
+  font-size: 16px;
+  color: #7A7A7A;
+  font-family: sfpro-reg;
+}
+.button_div {
+  display: flex;
+  justify-content: flex-end; 
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1270px) and (min-width: 1024px) {
+  .container {
+    padding: 80px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 600px) {
+  .container {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 80px 20px;
+  }
+  .container_inner {
+    display: block;
+  }
+  .form_div {
+    padding: 0;
+    margin-top: -20px;
+  }
+}

@@ -1,0 +1,119 @@
+.carouselContainer {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  padding: 80px 200px;
+}
+.carouselContainerInner {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.carousel {
+  display: flex;
+  transition: transform 1s ease-in-out; 
+  width: 100%;
+}
+.partners_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.partners_par {
+  background: #D1FADF;
+  padding: 8px 16px;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #126A11;
+  text-align: center;
+}
+.banner_h4 {
+  margin: 16px 0 48px 0;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+.spiral_img {
+  position: absolute;
+  left: 0;
+  top: 80;
+  margin-left: 80px;
+}
+.carouselItem {
+  flex: 0 0 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.imageWrapper {
+  text-align: center;
+}
+.carouselImage {
+  width: 50px; 
+  height: auto;
+  margin-top: 40px;
+}
+.imageText {
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 32px;
+}
+.imageText2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; /* Adjust the spacing between the carousel and the dots */
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 60px;
+}
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #A4A4A4;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.activeDot {
+  background-color: #4158EE; /* Active dot color */
+}
+
+
+
+@media only screen and (max-width: 1270px) and (min-width: 1024px) {
+  .carouselContainer {
+    padding: 80px;
+  }
+  .spiral_img {
+    margin: -100px 0 0 80px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 600px) {
+  .carouselContainer {
+    padding: 80px;
+  }
+  .spiral_img {
+    margin: -100px 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carouselContainer {
+    padding: 80px 20px;
+  }
+  .spiral_img {
+    width: 70px;
+    height: 70px;
+    left: 0;
+    margin: -200px 0 0 20px;
+  }
+}

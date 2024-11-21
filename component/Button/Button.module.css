@@ -1,0 +1,17 @@
+.container {
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: sfpro-medium;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 20px 24px;
+  }
+}

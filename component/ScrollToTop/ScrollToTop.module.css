@@ -1,0 +1,15 @@
+.scrollToTop {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    cursor: pointer;
+    /* transition: opacity 0.3s ease, transform 0.3s ease; */
+    z-index: 1000;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .scrollToTop:focus {
+    outline: none;
+  }
+  

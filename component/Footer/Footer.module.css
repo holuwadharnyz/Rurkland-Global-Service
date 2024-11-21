@@ -1,0 +1,67 @@
+.container {
+  background-color: #0F23A9;
+  padding: 80px 200px 40px 200px;
+  color: #fff !important;
+}
+.container_upper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+/* .logo {
+  width: 500px;
+  height: auto;
+} */
+.wedo_P {
+  font-size: 16px;
+  line-height: 24px;
+}
+.help_header {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.help_header_icon {
+  width: 24px;
+  height: 24px;
+}
+.help_header_title {
+  font-size: 14px;
+  line-height: 24px;
+  width: 100%;
+}
+.divider {
+  border-bottom: 1px solid #fff;
+  margin: 48px 0;
+}
+.wedo_P2 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1270px) and (min-width: 1024px) {
+  .container {
+    padding: 80px 80px 30px 80px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 600px) {
+  .container {
+    padding: 80px 80px 30px 80px;
+  }
+  .container_upper {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 80px 20px 30px 20px;
+  }
+  .container_upper {
+    display: block;
+  }
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+}

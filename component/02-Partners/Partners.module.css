@@ -1,0 +1,46 @@
+.container {
+  padding: 80px 200px;
+}
+.partners_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.partners_par {
+  background: #E7DCFD;
+  padding: 8px 16px;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  width: fit-content;
+}
+.banner_h4 {
+  margin: 16px 0 48px 0;
+  font-size: 40px;
+  font-weight: 500;
+}
+.container_inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1270px) and (min-width: 1024px) {
+  .container {
+    padding: 80px 100px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 600px) {
+  .container {
+    padding: 80px 100px;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 80px 20px;
+  }
+}

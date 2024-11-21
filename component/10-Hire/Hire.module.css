@@ -1,0 +1,51 @@
+.container {
+  padding: 80px 200px;
+  background-color: #FCFCFD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.partners_par {
+  background: #FCEA88;
+  padding: 8px 16px;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 800;
+  color: #826E00;
+  width: fit-content;
+}
+.banner_h4 {
+  margin: 16px 0 0 0;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+.banner_P {
+  font-size: 16px;
+  color: #7A7A7A;
+  text-align: center;
+  margin: 19px 0 48px 0;
+  line-height: 24px;
+}
+.hire_img {
+  width: 100%;
+  height: auto;
+  margin-top: 48px;
+}
+
+@media only screen and (max-width: 1270px) and (min-width: 1024px) {
+  .container {
+    padding: 40px 80px;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 600px) {
+  .container {
+    padding: 40px 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 80px 20px;
+  }
+}
