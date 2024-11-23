@@ -30,7 +30,7 @@ const WhatWeDo = () => {
         <div className={styles.card}>
           <Image src={Truck} alt="" className={styles.project_img} />
           <h2 className={styles.wedo_h2}>Supply of Marine Fuels</h2>
-          <p className={styles.wedo_P}>Rurkland specializes in providing high-quality marine fuels, Bunker Fuels. With a focus on compliance and performance, our fuels ensure optimal efficiency for vessels while meeting international environmental standards. Trust us to power your maritime operations responsibly.</p>
+          <p className={styles.wedo_P}>Rurkland specializes in providing high-quality marine fuels, including bunker fuels. With a focus on compliance and performance, our fuels ensure optimal efficiency for vessels while meeting international environmental standards. Trust us to power your maritime operations responsibly.</p>
         </div>
 
         <div className={styles.card}>
