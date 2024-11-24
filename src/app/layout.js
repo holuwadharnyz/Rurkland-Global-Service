@@ -7,7 +7,7 @@ import "./globals.css";
 // const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "RURKLAND",
+  title: "RURKLAND GLOBAL SERVICES",
   description: "Excellence in Every Drop, Progress in Every Partnership and Powering a Sustainable Future.",
 };
 
