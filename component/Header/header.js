@@ -38,7 +38,7 @@ const Header = () => {
         <Marquee gradient={false} speed={100}>
           <div className={styles.help_header}>
             <Image src={Location} className={styles.help_header_icon} />
-            <span className={styles.help_header_title}>Plot 93, Ray Agwulonu Avenue, Choos Estate, Wumba District, Abuja FCT, Nigeria</span>
+            <span className={styles.help_header_title}>6th Floor, Kariko Towers, 9 Wharf Road, Apapa, Lagos, Nigeria</span>
           </div>
 
           <div className={styles.help_header}>
